@@ -1,0 +1,97 @@
+
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color:#4f6b6f;
+}
+.hero{
+    margin-top: 70px;
+}
+.game-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.main-container{
+    width:px;
+    height:px;
+}
+table{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 450;
+    color: #ffdbdb;
+    width:100%;
+    height: 100%;
+    cursor:pointer;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+.btns-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.btn{
+    padding: 5px 20px;
+    margin: 0px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(252, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+/*-Media Queries-*/
+@media screen and (max-width:360px)
+{
+    .hero{
+        margin-top: 30px;
+    }
+    .game-heading{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .main-container{
+        width: 320px;
+        height: 320px;
+    }
+    table{
+        font-size: 45px;
+    }
+    td{
+        width: 40px;
+        height: 70px;
+    }
+    .btns-container{
+        padding-top: 10px;
+        margin-top: 15px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+}
